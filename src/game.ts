@@ -440,7 +440,7 @@ externalLink.setParent(_scene)
 externalLink.hideLink()
 
 const script7 = new Script7()
-script7.spawn(externalLink, { "url": "https://forms.gle/o8ushdAzeTr32e5JA", "name": "You found the cans!! Claim Your Poap In The Alley!" }, createChannel(channelId, externalLink, channelBus))
+script7.spawn(externalLink, { "url": "https://forms.gle/nbY7J19gVWcmPu2L9", "name": "You found the cans!! Claim Your Poap In The Alley!" }, createChannel(channelId, externalLink, channelBus))
 
 
 //Puzzle Reward Link
@@ -449,7 +449,7 @@ puzzleRLink.setParent(_scene)
 puzzleRLink.hideLink()
 
 const sc = new Script8()
-sc.spawn(puzzleRLink, { "url": "https://forms.gle/o8ushdAzeTr32e5JA", "name": "You Solved The Puzzle! Claim Your Poap In The Alley!" }, createChannel(channelId, puzzleRLink, channelBus))
+sc.spawn(puzzleRLink, { "url": "https://forms.gle/nbY7J19gVWcmPu2L9", "name": "You Solved The Puzzle! Claim Your Poap In The Alley!" }, createChannel(channelId, puzzleRLink, channelBus))
 
 
 
@@ -462,7 +462,7 @@ const coinPositions = [
   new Vector3(7.8, 6.1, 21.4), // outside 1st floor ring
   new Vector3(26.25, 3.3, 13.7), // outside
   new Vector3(9.1, 12.9, 22.8), // 1st floor
-  new Vector3(23.8, 12.8, 17,6), // 1st floor 2
+  new Vector3(23.8, 12.8, 17.6), // 1st floor 2
   new Vector3(15.8, 16.1, 5.6), // front room behind screen
   new Vector3(20.9, 24.4, 25.6), // 3rd floor 1
   new Vector3(24.9, 27.9, 10.75), // top fllor before globe
