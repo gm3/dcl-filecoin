@@ -440,7 +440,7 @@ externalLink.setParent(_scene)
 externalLink.hideLink()
 
 const script7 = new Script7()
-script7.spawn(externalLink, { "url": "https://forms.gle/nbY7J19gVWcmPu2L9", "name": "You found the cans!! Claim Your Poap In The Alley!" }, createChannel(channelId, externalLink, channelBus))
+script7.spawn(externalLink, { "url": "https://forms.gle/o8ushdAzeTr32e5JA", "name": "You found the cans!! Claim Your Poap In The Alley!" }, createChannel(channelId, externalLink, channelBus))
 
 
 //Puzzle Reward Link
@@ -449,7 +449,7 @@ puzzleRLink.setParent(_scene)
 puzzleRLink.hideLink()
 
 const sc = new Script8()
-sc.spawn(puzzleRLink, { "url": "https://forms.gle/nbY7J19gVWcmPu2L9", "name": "You Solved The Puzzle! Claim Your Poap In The Alley!" }, createChannel(channelId, puzzleRLink, channelBus))
+sc.spawn(puzzleRLink, { "url": "https://forms.gle/o8ushdAzeTr32e5JA", "name": "You Solved The Puzzle! Claim Your Poap In The Alley!" }, createChannel(channelId, puzzleRLink, channelBus))
 
 
 
