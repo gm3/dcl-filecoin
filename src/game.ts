@@ -454,7 +454,7 @@ sc.spawn(puzzleRLink, { "url": "https://forms.gle/o8ushdAzeTr32e5JA", "name": "Y
 
 
 // adding coin came logic below
-const coinShape = new GLTFShape('models/file_game_objecgt.glb') // Include the spinning animation
+const coinShape = new GLTFShape('models/file_game_object.glb') // Include the spinning animation
 
 
 // Contains the positions for each can
