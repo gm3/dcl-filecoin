@@ -272,7 +272,7 @@ const transform25 = new Transform({
 })
 messageBubble2.addComponentOrReplace(transform25)
 
-const screen = new Entity('screen')
+/* const screen = new Entity('screen')
 engine.addEntity(screen)
 screen.setParent(_scene)
 const transform26 = new Transform({
@@ -285,7 +285,7 @@ const gltfShape2 = new GLTFShape("54115822-fbb5-4e0b-a1ea-1d26a2555e39/screen.gl
 gltfShape2.withCollisions = true
 gltfShape2.isPointerBlocker = true
 gltfShape2.visible = true
-screen.addComponentOrReplace(gltfShape2)
+screen.addComponentOrReplace(gltfShape2) */
 
 // this is the game object placemetns for the files collection game
 
@@ -373,7 +373,7 @@ const transform32 = new Transform({
   scale: new Vector3(1, 1, 1)
 })
 filecoinTest.addComponentOrReplace(transform32)
-const gltfShape8 = new GLTFShape("ccc26cbe-10d1-4820-bb84-61b7613071a3/Filecoin_test18.glb")
+const gltfShape8 = new GLTFShape("ccc26cbe-10d1-4820-bb84-61b7613071a3/Filecoin_test26.glb")
 gltfShape8.withCollisions = true
 gltfShape8.isPointerBlocker = true
 gltfShape8.visible = true
@@ -406,8 +406,8 @@ screen2.setParent(_scene)
 screen2.addComponent(new PlaneShape())
 screen2.addComponent(
   new Transform({
-    position: new Vector3(15.5, 19, 10),
-    scale: new Vector3(9, 5, 1)
+    position: new Vector3(15.6, 19.4, 9.95),
+    scale: new Vector3(9, 4.5, 1)
   })
 )
 
@@ -440,7 +440,7 @@ externalLink.setParent(_scene)
 externalLink.hideLink()
 
 const script7 = new Script7()
-script7.spawn(externalLink, { "url": "https://forms.gle/o8ushdAzeTr32e5JA", "name": "You found the cans!! Claim Your Poap In The Alley!" }, createChannel(channelId, externalLink, channelBus))
+script7.spawn(externalLink, { "url": "https://forms.gle/o8ushdAzeTr32e5JA", "name": "Thank you for collecting all the files! Claim your wearable in the top room, scan the qr with your smartphone for best results!" }, createChannel(channelId, externalLink, channelBus))
 
 
 //Puzzle Reward Link
@@ -449,7 +449,7 @@ puzzleRLink.setParent(_scene)
 puzzleRLink.hideLink()
 
 const sc = new Script8()
-sc.spawn(puzzleRLink, { "url": "https://forms.gle/o8ushdAzeTr32e5JA", "name": "You Solved The Puzzle! Claim Your Poap In The Alley!" }, createChannel(channelId, puzzleRLink, channelBus))
+sc.spawn(puzzleRLink, { "url": "https://forms.gle/o8ushdAzeTr32e5JA", "name": "Thank you for collecting all the files! Claim your wearable in the top room, scan the qr with your smartphone for best results!" }, createChannel(channelId, puzzleRLink, channelBus))
 
 
 
@@ -465,8 +465,8 @@ const coinPositions = [
   new Vector3(23.8, 12.8, 17.6), // 1st floor 2
   new Vector3(15.8, 16.1, 5.6), // front room behind screen
   new Vector3(20.9, 24.4, 25.6), // 3rd floor 1
-  new Vector3(24.9, 27.9, 10.75), // top fllor before globe
-  new Vector3(15.6, 27.8, 16),
+  new Vector3(22, 27.9, 10.75), // top floor side
+  new Vector3(15.6, 27.8, 16), // top floor before globe
 ] 
 
 
@@ -528,12 +528,12 @@ sc.init(options)
 script1.spawn(triggerArea2, {"enabled":true,"onEnter":[{"entityName":"externalLink11","actionId":"activate","values":{}}],"onLeave":[{"entityName":"externalLink11","actionId":"activate","values":{}}]}, createChannel(channelId, triggerArea2, channelBus))
 
 //script3.spawn(externalLink, {"url":"decentraland.org","name":"Art 2"}, createChannel(channelId, externalLink, channelBus))
-script3.spawn(externalLink2, {"url":"filecoin.io","name":"Art 1"}, createChannel(channelId, externalLink2, channelBus))
-script3.spawn(externalLink4, {"url":"filecoin.io","name":"Room 3"}, createChannel(channelId, externalLink4, channelBus))
-script3.spawn(externalLink5, {"url":"filecoin.io","name":"Room 5"}, createChannel(channelId, externalLink5, channelBus))
-script3.spawn(externalLink8, {"url":"filecoin.io","name":"Room 4"}, createChannel(channelId, externalLink8, channelBus))
-script3.spawn(externalLink9, {"url":"filecoin.io","name":"Room 6"}, createChannel(channelId, externalLink9, channelBus))
-script3.spawn(externalLink10, {"url":"filecoin.io","name":"Information"}, createChannel(channelId, externalLink10, channelBus))
+script3.spawn(externalLink2, {"url":"https://nancybakercahill.com/work/slipstream","name":"Nancy Baker Cahill"}, createChannel(channelId, externalLink2, channelBus))
+script3.spawn(externalLink4, {"url":"https://spec.filecoin.io/systems/filecoin_nodes/","name":"Filecoin Nodes"}, createChannel(channelId, externalLink4, channelBus))
+script3.spawn(externalLink5, {"url":"https://irlart.com/","name":"IRL Art - Artist Collective"}, createChannel(channelId, externalLink5, channelBus))
+script3.spawn(externalLink8, {"url":"https://m3org.com/","name":"M3 - Metaverse Makers Mastermind"}, createChannel(channelId, externalLink8, channelBus))
+script3.spawn(externalLink9, {"url":"https://museumofcrypto.notion.site/M-C-ROOMs-7e5ff2af1d884f0c95e48a9c091152b3","name":"MOCA ROOMS"}, createChannel(channelId, externalLink9, channelBus))
+script3.spawn(externalLink10, {"url":"http://arts.timessquarenyc.org/times-square-arts/projects/midnight-moment/continuum/index.aspx","name":"Krista - Continuum"}, createChannel(channelId, externalLink10, channelBus))
 // script3.spawn(externalLink11, {"url":"filecoin.io","name":"FILECOIN Wearable"}, createChannel(channelId, externalLink11, channelBus))
 
 // social media buttons 
@@ -542,12 +542,12 @@ script4.spawn(twitterButtonLink, {"url":"filecoin","bnw":false}, createChannel(c
 
 // message bubbles
 script1.spawn(triggerArea, {"enabled":true,"onEnter":[{"entityName":"messageBubble","actionId":"open","values":{}}],"onLeave":[{"entityName":"messageBubble","actionId":"close","values":{}}]}, createChannel(channelId, triggerArea, channelBus))
-script2.spawn(messageBubble, {"text":"Here at the HQ, we organize \n millions of data points daily. Our \n mission at Filecoin is to preserve \n humanity’s most valuable \ninformation and we need your help! \n\nCollect files around the space and \nadd them to the Filecoin network \non the top floor to redeem \nyour NFT wearable!","fontSize":11}, createChannel(channelId, messageBubble, channelBus))
+script2.spawn(messageBubble, {"text":"Here at Filecoin, we organize \n millions of data points daily. Our \n mission at Filecoin is to preserve \n humanity’s most valuable \ninformation and we need your help! \n\nCollect files around the space and \nadd them to the Filecoin network \non the top floor to redeem \nyour NFT wearable!","fontSize":11}, createChannel(channelId, messageBubble, channelBus))
 
 
 // welcoem text 
 script1.spawn(triggerArea6, {"enabled":true,"onEnter":[{"entityName":"messageBubble2","actionId":"open","values":{}}],"onLeave":[{"entityName":"messageBubble2","actionId":"close","values":{}}]}, createChannel(channelId, triggerArea6, channelBus))
-script2.spawn(messageBubble2, {"text":"Welcome To \nFileCoin HQ","fontSize":20}, createChannel(channelId, messageBubble2, channelBus))
+script2.spawn(messageBubble2, {"text":"Welcome To FileCoin \nCommunity Center","fontSize":18}, createChannel(channelId, messageBubble2, channelBus))
 
 /* script1.spawn(triggerArea4, {"enabled":true,"onEnter":[{"entityName":"messageBubble3","actionId":"open","values":{}}],"onLeave":[{"entityName":"messageBubble3","actionId":"open","values":{}}]}, createChannel(channelId, triggerArea4, channelBus))
 script2.spawn(messageBubble3, {"text":"your in the right spot for a presentation@\n","fontSize":20}, createChannel(channelId, messageBubble3, channelBus)) */
