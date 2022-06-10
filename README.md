@@ -10,7 +10,7 @@ Link to Parcel https://play.decentraland.org/?position=-4%2C-133&realm=dg&island
 ## Team 
 IRLArt is a collective of artists and art directors focused on high impact creative projects. We recreate all of our physical exhibits in the metaverse. We have built in Cryptovoxels, Somnium Space, VRChat, Mona.Gallery, scanned our spaces with Matterport, and are committed to bridging digital to physical. We have a physical gallery and venue, IRL Underground, based in Denver, CO we host DAO supported NFT exhibits in. Since 2019 we have also been the art stewards of ETHDenver, managing the Art Gallery and Auction build and curation.
 
-![](https://i.imgur.com/BxbEsbl.jpg)
+![](https://i.imgur.com/dAK0lkI.png)
 
 * **Annie Stardust** - Founder of IRL Art, Digital Artist and Art Director working primarily in Cinema 4D, with a background in animation, content development, 3D world building, early NFT artist, onboarded over 400 artists into NFTs, and art steward for ETHDenver since 2019.
 
