@@ -2,7 +2,7 @@
 
 ![](https://i.imgur.com/qW6ltQ9.jpg)
 
-This is a collaboration between FileCoin and IRLArt for FileCoin Austion
+This is a collaboration between FileCoin and IRLArt for FileCoin Austin
 
 Link to Parcel https://play.decentraland.org/?position=-4%2C-133&realm=dg&island=I6l4q
 
