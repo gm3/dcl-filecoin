@@ -420,6 +420,7 @@ const myVideoClip = new VideoClip(
 const myVideoTexture = new VideoTexture(myVideoClip)
 myVideoTexture.play()
 myVideoTexture.loop = true
+myVideoTexture.volume = 0
 
 
 const myVideoMaterial = new Material()
@@ -558,8 +559,8 @@ script2.spawn(messageBubble4, {"text":"test words","fontSize":5}, createChannel(
 
 
 //  radio
-script1.spawn(triggerArea5, {"enabled":true,"onEnter":[{"entityName":"radioCyberpunk","actionId":"activate","values":{}}],"onLeave":[{"entityName":"radioCyberpunk","actionId":"deactivate","values":{}}]}, createChannel(channelId, triggerArea5, channelBus))
-script6.spawn(radioCyberpunk, {"startOn":false,"volume":1,"onClickText":"Radio On/Off","onClick":[],"onActivate":[]}, createChannel(channelId, radioCyberpunk, channelBus))
+//script1.spawn(triggerArea5, {"enabled":true,"onEnter":[{"entityName":"radioCyberpunk","actionId":"activate","values":{}}],"onLeave":[{"entityName":"radioCyberpunk","actionId":"deactivate","values":{}}]}, createChannel(channelId, triggerArea5, channelBus))
+//script6.spawn(radioCyberpunk, {"startOn":false,"volume":1,"onClickText":"Radio On/Off","onClick":[],"onActivate":[]}, createChannel(channelId, radioCyberpunk, channelBus))
 
 
 
