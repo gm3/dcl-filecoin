@@ -1,6 +1,7 @@
 # FileCoin Decentraland Build
 
 ![](https://i.imgur.com/qW6ltQ9.jpg)
+![](https://i.imgur.com/tPhbd4p.jpg)
 
 This is a collaboration between FileCoin and IRLArt for FileCoin Austin
 
